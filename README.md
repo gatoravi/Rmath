@@ -8,6 +8,16 @@ generate a static library by default.
 
 ##Compile
 To compile:
+- Original
 ```
+    cd lib
     make release
+```
+
+- With cmake
+```
+    mkdir build && cd build
+    cmake ..
+    make
+    ./Rmath_test
 ```

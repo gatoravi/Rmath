@@ -9,3 +9,6 @@ list(REMOVE_ITEM CFiles ${PROJECT_SOURCE_DIR}/lib/randmtzig.c)
 
 #Compile static library
 add_library(Rmath ${CFiles})
+
+# use 'for' loop initial declaration)
+set_property(TARGET Rmath PROPERTY C_STANDARD 99)

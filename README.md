@@ -15,7 +15,8 @@ To compile:
     make release
 ```
 
-- With cmake
+- With cmake, this examples compiles and calls the pbinom function
+from a C++ function.
 ```
     mkdir build && cd build
     cmake ..

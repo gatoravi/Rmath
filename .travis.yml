@@ -1,0 +1,20 @@
+language: cpp
+
+compiler:
+    - clang
+    - gcc
+
+script:
+    - mkdir build && cd build && cmake .. && make
+
+after_success:
+    - cd build
+    - ./Rmath_test
+
+os:
+    - linux
+
+notifications:
+    email:
+        on_failure: always
+        on_success: change

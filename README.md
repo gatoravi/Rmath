@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/gatoravi/Rmath.svg?branch=master)](https://travis-ci.org/gatoravi/Rmath)
 #Rmath
 
 The Rmath library from R
